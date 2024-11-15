@@ -22,7 +22,7 @@ Project Manager is a collaborative agent available to your users in Planner plan
 
 Project Manager, Copilot, and Microsoft 365 are built on Microsoft’s comprehensive approach to security, compliance, and privacy. 
 
-Project Manager plans provide the same auditing capabilities as premium plans (previously Project for the Web projects). To learn more about these auditing capabilities, see Planner Premium audit log activities (NEED THIS LINK).
+Project Manager plans provide the same auditing capabilities as premium plans (previously Project for the Web projects). To learn more about these auditing capabilities, see [Planner Premium audit log activities](/purview/audit-log-activities#microsoft-project-for-the-web-activities).
 
 For more information about security and privacy in Microsoft 365 Copilot, see [Data, Privacy, and Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy).
 
