@@ -9,7 +9,6 @@ ms.date: 09/30/2024
 audience: Admin
 ms.topic: article
 ms.service: office-perpetual-itpro
-ms.subservice: planner
 description: "This article shares information on how admins can disable the flow of data to Dataverse on basic plans"
 ---
 
