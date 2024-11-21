@@ -7,7 +7,7 @@ manager: jtremper
 ms.date: 10/25/2024
 audience: Admin
 ms.topic: article
-ms.service: office-perpetual-itpro
+ms.service: planner
 ms.subservice: planner
 ms.localizationpriority: high
 search.appverid:

@@ -9,7 +9,7 @@ ms.date: 10/30/2024
 ms.reviewer: dahopkin
 audience: Admin
 ms.topic: article
-ms.service: office-perpetual-itpro
+ms.service: planner
 ms.subservice: planner
 ms.localizationpriority: medium
 search.appverid:
