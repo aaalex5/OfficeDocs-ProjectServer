@@ -6,7 +6,7 @@ manager: anavs
 ms.date: 05/07/2024
 audience: Admin
 ms.topic: overview
-ms.service: office-perpetual-itpro
+ms.service: planner
 ms.subservice: planner
 ms.localizationpriority: high
 ms.collection: essentials-manage
