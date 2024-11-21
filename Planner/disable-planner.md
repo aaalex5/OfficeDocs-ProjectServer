@@ -4,7 +4,7 @@ description: "Learn how to turn off Planner for your organization in Microsoft a
 author:      danlucuiPlanner
 manager:     bribha
 ms.author:   danlucui
-ms.service: office-perpetual-itpro
+ms.service: planner
 ms.subservice: planner
 ms.topic:    article
 ms.date:     10/25/2024
