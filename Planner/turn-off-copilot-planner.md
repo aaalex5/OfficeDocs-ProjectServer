@@ -10,7 +10,6 @@ ms.author: jenz
 ms.service: office-perpetual-itpro
 ms.topic: how-to
 ms.date:     07/25/2024
-ms.subservice: planner
 manager: jtremper
 ms.localizationpriority: high
 ms.reviewer: jevaudri
