@@ -7,7 +7,6 @@ ms.date: 03/29/2024
 audience: Admin
 ms.topic: article
 ms.service: office-perpetual-itpro
-ms.subservice: planner
 ms.localizationpriority: high
 description: "This article explains how to downgrade a premium plan in Microsoft Planner."
 ---
