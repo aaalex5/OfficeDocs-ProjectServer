@@ -33,7 +33,7 @@ Follow the steps in [Prerequisites for making Planner changes in Windows PowerSh
 1. Open PowerShell and run the following command to disable the conversion of basic plans to premium plan by users (it's enabled by default):
 
    ```powershell
-   Set-PlannerConfiguration -AllowDataFlowToDataverse  $false
+   Set-PlannerConfiguration -AllowDataFlowToDataverse $false
    ```
   
    If you changed your mind and would like to allow users to convert basic plans into premium plans, run the following command:
