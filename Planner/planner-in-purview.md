@@ -7,7 +7,6 @@ ms.date: 05/07/2024
 audience: Admin
 ms.topic: overview
 ms.service: office-perpetual-itpro
-ms.subservice: planner
 ms.localizationpriority: high
 ms.collection: essentials-manage
 description: "This article shares information about how IT Admins and Compliance officers can use Microsoft Purview with Planner"
