@@ -5,7 +5,6 @@ author:      danlucuiPlanner
 manager:     bribha
 ms.author:   danlucui
 ms.service: office-perpetual-itpro
-ms.subservice: planner
 ms.topic:    article
 ms.date:     10/25/2024
 ---

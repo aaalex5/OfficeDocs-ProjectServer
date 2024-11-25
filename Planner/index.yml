@@ -14,7 +14,6 @@ metadata:
   manager: pamgreen
   audience: Admin
   ms.service: office-perpetual-itpro
-  ms.subservice: planner
   ms.localizationpriority: high
   ms.collection: essentials-navigation
   search.appverid:
