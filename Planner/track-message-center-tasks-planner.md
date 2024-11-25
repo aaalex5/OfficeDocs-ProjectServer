@@ -9,7 +9,6 @@ ms.date: 05/13/2020
 audience: Admin
 ms.topic: how-to
 ms.service: office-perpetual-itpro
-ms.subservice: planner
 ms.localizationpriority: high
 search.appverid:
 - MET150
