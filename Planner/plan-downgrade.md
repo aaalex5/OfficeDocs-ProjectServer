@@ -42,10 +42,10 @@ Because the premium plan is no longer shared with the group, other users of the 
 
     ![Screenshot of Downgrade trigger link located in project details.](media/downgrade-trigger.png)
 
-3. To begin the downgrade, press the “Downgrade plan for everyone” button in the dialog that pops up. 
+3. To begin the downgrade, press the **Downgrade plan for everyone** button in the dialog that pops up. 
 
     ![Screenshot of the downgrade trigger button in the downgrade dialog.](media/downgrade-begin-process.png)
 
-The process can take a few minutes to complete. Once it's done, the user will be in the downgraded, basic plan. Both the premium plan and the basic plan will be visible in the "My Plans" view for the user who triggered the downgrade. 
+    The process can take a few minutes to complete. Once it's done, the user will be in the downgraded, basic plan. Both the premium plan and the basic plan will be visible in the "My Plans" view for the user who triggered the downgrade. 
 
-![Screenshot of the My Plans link in the left navigation of Planner.](media/downgrade-my-plans.png)
+    ![Screenshot of the My Plans link in the left navigation of Planner.](media/downgrade-my-plans.png)
