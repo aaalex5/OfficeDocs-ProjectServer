@@ -24,9 +24,10 @@ description: "This article shares information on how admins can control and mana
 > This article applies to:
 >
 > - Basic plans in the Planner app in Teams
+> - Premium plans in the Planner app in Teams
 > - All plans in other Planner endpoints (including Planner web, Planner mobile, and Planner connectors)
 >
-> It doesn't apply to To Do lists or premium plans in the Planner app in Teams. [Learn more about the Planner app in Teams](/microsoftteams/manage-planner-app)
+> It doesn't apply to To Do lists or Project Manager plans in the Planner app in Teams. [Learn more about the Planner app in Teams](/microsoftteams/manage-planner-app)
 
 The new Microsoft Planner is a single, unified work management experience. It brings together the simplicity of Microsoft To Do, the collaboration of Planner, and power of Microsoft Project, and the intelligence of Microsoft 365 Copilot into a single, simple solution that spans from individual task management to enterprise and professional project management.
 
