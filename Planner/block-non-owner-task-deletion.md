@@ -4,11 +4,10 @@ f1.keywords:
 ms.author: jenz
 author: jenzamora
 manager: jtremper
-ms.date: 02/23/2021
+ms.date: 10/25/2024
 audience: Admin
 ms.topic: article
-ms.service: office-perpetual-itpro
-ms.subservice: planner
+ms.service: planner
 ms.localizationpriority: high
 search.appverid:
 description: "This article shares information on how admins can block a user from deleting tasks the user didn't create"
@@ -18,12 +17,7 @@ description: "This article shares information on how admins can block a user fro
 
 > [!IMPORTANT]
 >
-> This article applies to:
->
-> - Basic plans in the Planner app in Teams
-> - All plans in other Planner endpoints (including Planner web, Planner mobile, and Planner connectors)
->
-> It doesn't apply to To Do lists or premium plans in the Planner app in Teams. [Learn more about the Planner app in Teams](/microsoftteams/manage-planner-app)
+> This article applies to basic plans only.
 
 Tenant admins can block a specific user from deleting tasks in Microsoft Planner that they didn't create.
 
@@ -41,12 +35,12 @@ Follow the steps in [Prerequisites for making Planner changes in Windows PowerSh
 
    |Parameter|Description|
    |:-------------------------|:---|
-   |UserAadIdOrPrincipalName|Use either the Microsoft Entra ID or the UPN of the user for which you want to export content.|
+   |UserAadIdOrPrincipalName|Use either the Microsoft Entra ID or the UPN of the user to modify the setting for.|
    |BlockDeleteTasksNotCreatedBySelf|Whether or not to block the user from deleting tasks not created by themselves.|
    |HostName|You only need to use this parameter if you access Planner through a host name other than `task.</span>office.</span>com`. For example, if you access Planner through `tasks.</span>office365.</span>us`, include `-HostName tasks.</span>office365</span>.us` in your command.|
    |||
 
-    The following cmdlet will block a user from deleting tasks in Planner that they didn't create.
+    The following cmdlet will block amyg@contoso.onmicrosoft.com from deleting tasks in Planner that they didn't create.
 
       ```PowerShell
        Set-PlannerUserPolicy -UserAadIdOrPrincipalName amyg@contoso.onmicrosoft.com -BlockDeleteTasksNotCreatedBySelf $true
@@ -64,12 +58,12 @@ Follow the steps in [Prerequisites for making Planner changes in Windows PowerSh
 
    |Parameter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
    |:---|:---|
-   |UserAadIdOrPrincipalName|Use either the Microsoft Entra ID or the UPN of the user for which you want to export content.|
-   |BlockDeleteTasksNotCreatedBySelf&nbsp;|Whether or not to block the user from deleting tasks not created by themselves.|
+   |UserAadIdOrPrincipalName|Use either the Microsoft Entra ID or the UPN of the user to modify the setting for.|
+   |BlockDeleteTasksNotCreatedBySelf|Whether or not to block the user from deleting tasks not created by themselves.|
    |HostName|You only need to use this parameter if you access Planner through a host name other than `task.</span>office.</span>com`. For example, if you access Planner through `tasks.</span>office365.</span>us`, include `-HostName tasks.</span>office365</span>.us` in your command.|
    |||
 
-    For example, the following cmdlet will block a user from deleting tasks in Planner that they didn't create.
+    For example, the following cmdlet will unblock amyg@contoso.onmicrosoft.com from deleting tasks in Planner that they didn't create.
 
      ```PowerShell
       Set-PlannerUserPolicy -UserAadIdOrPrincipalName amyg@contoso.onmicrosoft.com -BlockDeleteTasksNotCreatedBySelf $false
@@ -87,11 +81,11 @@ Follow the steps in [Prerequisites for making Planner changes in Windows PowerSh
 
    |Parameter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description|
    |------------------------|---|
-   |UserAadIdOrPrincipalName|Use either the Microsoft Entra ID or the UPN of the user for which you want to export content.|
+   |UserAadIdOrPrincipalName|Use either the Microsoft Entra ID or the UPN of the user to view the setting for.|
    |HostName|You only need to use this parameter if you access Planner through a host name other than `task.</span>office.</span>com`. For example, if you access Planner through `tasks.</span>office365.</span>us`, include `-HostName tasks.</span>office365</span>.us` in your command.|
    |||
 
-   For example, the following cmdlet will get a user's current policy
+   For example, the following cmdlet will get the user amyg@contoso.onmicrosoft.com current policy setting
 
     ```PowerShell
      Get-PlannerUserPolicy -UserAadIdOrPrincipalName amyg@contoso.onmicrosoft.com | fl

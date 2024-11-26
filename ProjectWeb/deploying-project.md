@@ -14,6 +14,8 @@ description: "Learn how to deploy Project for the web to both a default and non-
 
 # Deploying Project for the web
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 Project for the web is available for use in the Default environment and in Sandbox and Production Dataverse environments.
 
 Project for the web in the Default environment enables customers to quickly get started creating projects, managing schedules, and sharing them with other users in the organization. Because everyone is a member of this environment by default, enabling users to create and manage Projects only requires that you assign a Project license to them.
@@ -46,8 +48,7 @@ Project is supported in the following types of environments:
 To be able to deploy to Sandbox and Production environments, the environment needs to be created with a database and the "Enable Dynamics 365 Apps" toggle **must be disabled**.
 
 > [!div class="mx-imgBorder"]
-> ![D365 App Toggle.](media/AppToggle.png) 
-
+> ![D365 App Toggle.](media/AppToggle.png)
 > [!Note]
 > If you set a security group for the environment, only the users in that group will be able to view those projects and other information of the environment. Additionally, tasks can only be assigned to users in that group.
 
@@ -60,8 +61,7 @@ Once the environment is created, you can deploy Project to the environment from 
 Open the **Resources > Dynamics 365 apps** page from the left-hand navigation menu. Then, install the **Project Service Core** package into your environment.
 
 > [!div class="mx-imgBorder"]
-> ![Project package.](media/InstallProject.png) 
-
+> ![Project package.](media/InstallProject.png)
 > [!Note]
 > If the installation package isn't appearing in the list of available packages, either the tenant doesn't have a Project license, or the environment was created with the "Enable Dynamics 365 Apps toggle" enabled.
 
@@ -177,7 +177,7 @@ Foreach ($App in $ProjectRequiredApps) #Remove from hashtable if app exist.
 If ($EntApps.Count -gt 0)
 {
    Write-Host "Check#1: One or more required Enterprise Apps are missing." -ForegroundColor Red
-   Write-Host "Please check that you have 1 or more of the following subscriptions: Project Plan 1, Project Plan 3 or Project Plan 5." -ForegroundColor Red
+   Write-Host "Please check that you have 1 or more of the following subscriptions: Planner Plan 1, Planner and Project Plan 3, or Planner and Project Plan 5." -ForegroundColor Red
    $EntApps | ft -a 
 }
 else

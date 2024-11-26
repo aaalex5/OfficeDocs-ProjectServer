@@ -17,6 +17,8 @@ description: "Learn about limits for Project for the web projects and tasks."
 
 # Project for the web limits and boundaries
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 There are important limitations that you should know if you are using Project for the web. These limits apply to projects and tasks.
   
 

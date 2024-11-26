@@ -8,8 +8,7 @@ manager: jtremper
 ms.date: 03/08/2021
 audience: Admin
 ms.topic: overview
-ms.service: office-perpetual-itpro
-ms.subservice: planner
+ms.service: planner
 ms.localizationpriority: high
 search.appverid:
 - MET150

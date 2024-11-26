@@ -12,6 +12,8 @@ description: "Learn about the security roles in Project for the web."
 ---
 # Project for the Web Security Roles
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 Project for the web includes several security roles that enable users to work with Project. Some of these security roles can also be customized by Administrators to control access of data. For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 Project Common and Project User roles need to be assigned to each user to create/manage projects within a non-default environment. These roles are needed in addition to roles required to sign in and access a Dataverse environment. For more information, see [Security roles and privileges](/power-platform/admin/assign-security-roles).
@@ -44,6 +46,9 @@ When a project is shared with a Microsoft Entra Office Group, the Microsoft Proj
 > In the Default org, the team was given Project User role for older project.
 
 3.	Ownership of the project and related tables is changed from the current owning user to the newly created team. Project for the web only supports adding more security roles to the Microsoft Project Application user. Other changes/modification aren’t supported and can cause the service not to function. The Project Common role can modify to support least privilege and customization.
+
+4.	Any new environments that get created, global or service level admin roles such as Power Platform Administrator and Dynamics 365 Administrator [will no longer be automatically assigned the System Administrator role](/power-platform/admin/manage-high-privileged-admin-roles#changes-to-feature-support). A Global Admin can elevate their role to System Admin for a specific environment via [Powershell or the Power Platform admin center](/power-platform/admin/manage-high-privileged-admin-roles#self-elevate-to-the-system-administrator-role).
+
 
 ## Project Common
 

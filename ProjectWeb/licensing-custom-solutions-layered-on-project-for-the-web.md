@@ -13,6 +13,8 @@ audience: admin
 
 # Licenses for customizations of Project for the web
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 When you create custom solutions starting with Project for the web, some additional licenses may be required.
 
 [!INCLUDE [p4w-licenses.md](includes/p4w-licenses.md)]

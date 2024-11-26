@@ -13,6 +13,8 @@ audience: admin
 
 # Deploy the Project Management Office Accelerator
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 Although people in your organization can start using Project for the web as soon as you subscribe to Microsoft 365, you'll probably want to customize the environment to meet your specific business needs. Save time with several common scenarios by deploying the Project Management Office Accelerator (PMO Accelerator).
 
 ## Prerequisites

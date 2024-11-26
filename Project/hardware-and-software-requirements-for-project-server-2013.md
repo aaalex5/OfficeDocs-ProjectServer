@@ -375,9 +375,3 @@ For Project Web App in Project Server 2013, you can use any of the following sup
 <a name="section8"> </a>
 
 You can install Project Server 2013 and SharePoint Server 2013 on the Azure platform. For more information, see [SharePoint on Azure Infrastructure Services](/previous-versions/azure/dn275955(v=azure.100)) in the Azure library.
-  
-## See also
-<a name="section8"> </a>
-
-
-[Support and licensing for Azure in SharePoint 2013](/SharePoint/administration/sharepoint-server-2016-in-microsoft-azure)

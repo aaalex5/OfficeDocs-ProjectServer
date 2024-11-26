@@ -15,6 +15,8 @@ description: "Learn about resources available for Project for the Web admins."
 
 # Project for the web admin help
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 Learn about resources available for Project for the web admins.
 
 | Icon              | Topic               | Icon               |    Topic           |        Icon       |    Topic           |
