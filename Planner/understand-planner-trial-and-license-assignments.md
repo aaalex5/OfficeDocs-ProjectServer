@@ -4,7 +4,7 @@ description: "Learn about 30-day user trials of Planner and how to assign licens
 author: jenzamora 
 ms.author: jenz 
 manager: jtremper
-ms.service: office-perpetual-itpro
+ms.service: planner
 ms.topic: how-to 
 ms.date: 10/25/2024
 ms.localizationpriority: medium
