@@ -7,7 +7,7 @@ title: Turn off Microsoft 365 Copilot for your organization
 description: This document walks you through the process of turning off the Copilot in Planner feature for your organization through our PowerShell suite
 author: jenzamora
 ms.author: jenz
-ms.service: office-perpetual-itpro
+ms.service: planner
 ms.topic: how-to
 ms.date:     07/25/2024
 manager: jtremper
