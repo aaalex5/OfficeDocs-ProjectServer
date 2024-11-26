@@ -9,7 +9,6 @@ ms.date: 10/25/2024
 audience: Admin
 ms.topic: article
 ms.service: office-perpetual-itpro
-ms.subservice: planner
 description: "This article shares information the subscriptions needed to use Microsoft Planner"
 ---
 
