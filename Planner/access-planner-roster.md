@@ -10,7 +10,6 @@ ms.reviewer: dahopkin
 audience: Admin
 ms.topic: article
 ms.service: planner
-ms.subservice: planner
 ms.localizationpriority: medium
 search.appverid:
 - MET150

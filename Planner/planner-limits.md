@@ -8,7 +8,6 @@ ms.date: 08/25/2021
 audience: Admin
 ms.topic: article
 ms.service: planner
-ms.subservice: planner
 ms.localizationpriority: medium
 ---
 # Microsoft Planner limits

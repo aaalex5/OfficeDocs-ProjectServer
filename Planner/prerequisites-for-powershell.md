@@ -9,7 +9,6 @@ ms.date: 10/25/2024
 audience: Admin
 ms.topic: overview
 ms.service: planner
-ms.subservice: planner
 ms.localizationpriority: high
 search.appverid:
 - MET150

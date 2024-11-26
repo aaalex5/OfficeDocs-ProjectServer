@@ -7,7 +7,6 @@ ms.date: 08/27/2024
 audience: Admin,user
 ms.topic: article
 ms.service: planner
-ms.subservice: planner
 ms.localizationpriority: high
 description: "This article explains how to convert a basic plan into a premium plan in Microsoft Planner."
 ---

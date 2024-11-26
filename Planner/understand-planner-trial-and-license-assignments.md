@@ -5,7 +5,6 @@ author: jenzamora
 ms.author: jenz 
 manager: jtremper
 ms.service: planner
-ms.subservice: planner
 ms.topic: how-to 
 ms.date: 10/25/2024
 ms.localizationpriority: medium
