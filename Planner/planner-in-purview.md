@@ -6,7 +6,7 @@ manager: anavs
 ms.date: 05/07/2024
 audience: Admin
 ms.topic: overview
-ms.service: office-perpetual-itpro
+ms.service: planner
 ms.localizationpriority: high
 ms.collection: essentials-manage
 description: "This article shares information about how IT Admins and Compliance officers can use Microsoft Purview with Planner"
@@ -22,7 +22,7 @@ This documentation is focused on considerations unique to Planner. For general u
 * Supported Planner content: Tasks in Plans that are shared with groups.
 * Includes Tasks, comments, and attachments.
 
-Unsupported: Personal (roster) plans, plans in Loop components, premium plans (formerly projects)
+Unsupported: Personal (roster) plans, plans in Loop components, premium plans (formerly projects).
 
 ## eDiscovery for Planner Data
 
@@ -56,4 +56,4 @@ To export data from the review set, select export, give the export a name, and t
 
 :::image type="content" alt-text="Screenshot of the task being exported in Purview." source="media/purview-exporting-data.png":::
 
-Exit the review set, select the *export* tab within the case and monitor the export job. After the export job is finished, select *download*. In the downloaded file, the basic rendering should be json files and the content should be the same as the source tab you see in the review set. If rich rendering and the ``exportModel`` settings are configured as ``exportModel: "Meta"``, then the files should export as the file extension you set in export model. Otherwise it will export as plain text with json.
+Exit the review set, select the *export* tab within the case and monitor the export job. After the export job is finished, select *download*. In the downloaded file, the basic rendering should be json files and the content should be the same as the source tab you see in the review set. If rich rendering and the ``exportModel`` settings are configured as ``exportModel: "Meta"``, the files should export as the file extension you set in export model. Otherwise it will export as plain text with json.
