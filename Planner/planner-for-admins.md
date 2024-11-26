@@ -8,8 +8,7 @@ manager: jtremper
 ms.date: 08/14/2019
 audience: Admin
 ms.topic: overview
-ms.service: office-perpetual-itpro
-ms.subservice: planner
+ms.service: planner
 ms.localizationpriority: high
 ms.collection: essentials-manage
 search.appverid:

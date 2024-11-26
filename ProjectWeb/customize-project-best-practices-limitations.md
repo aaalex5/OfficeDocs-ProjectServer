@@ -14,6 +14,8 @@ audience: admin
 
 # Customization Best Practices and Limitations for Project for the web
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 [!INCLUDE [p4w-required-roles.md](includes/p4w-required-roles.md)]
 
 [!INCLUDE [p4w-solution-layers.md](includes/p4w-solution-layers.md)]

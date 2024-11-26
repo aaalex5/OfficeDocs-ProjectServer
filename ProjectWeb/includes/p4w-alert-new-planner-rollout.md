@@ -5,7 +5,7 @@ author: jenzamora
 ms.author: jenz
 manager: jtremper
 ms.reviewer: namerali
-ms.date: 10/10/2024
+ms.date: 10/29/2024
 audience: Admin
 ms.topic: include
 ms.service: office-perpetual-itpro
@@ -15,5 +15,4 @@ search.appverid: MET150
 description: "Microsoft Project for the web will soon become Microsoft Planner. The new Planner is currently rolling out to customers."
 ---
 
-> [!NOTE]
-> Microsoft Project for the web will soon become Microsoft Planner, which is currently rolling out to customers. To learn more about setting up the new Planner for your organization, see [Microsoft Planner for admins](../../Planner/planner-for-admins.md).
+:::image type="icon" source="../media/info.png"::: **Microsoft Project for the web will soon become Microsoft Planner, which is currently rolling out to customers. To learn more about setting up the new Planner for your organization, see [Microsoft Planner for admins](/../Planner/planner-for-admins).**

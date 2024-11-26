@@ -8,6 +8,8 @@ Items:
     items:
   - name: Licensing
     items:
+    - name: Learn about Planner subscriptions 
+      href: licensing.md
     - name: Understand Planner trial and license assignments
       href: understand-planner-trial-and-license-assignments.md
     - name: How to use Office 365 PowerShell to manage Microsoft Planner licenses
@@ -30,6 +32,8 @@ Items:
       href: planner-in-purview.md
     - name: Turn off Copilot in Planner for your organization
       href: turn-off-copilot-planner.md
+    - name: Turn off Project Manager in Planner for your organization
+      href: turn-off-project-manager.md
     - name: Turn off Outlook calendar sync in Planner for your organization
       href: turn-off-outlook-calendar-sync.md
   - name: Plans

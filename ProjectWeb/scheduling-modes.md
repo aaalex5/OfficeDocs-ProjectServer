@@ -18,6 +18,8 @@ description: "Learn about the various modes of scheduling in project operations.
 
 # Scheduling modes
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 Project for the web enables administrators to define how their organization manages key variables in project tasks. Based on the specific needs of the organization, administrators can make changes to the scheduling mode when a project is created.
 
 ## Change your organization’s scheduling mode

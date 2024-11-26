@@ -5,11 +5,11 @@ f1.keywords:
 ms.author: jenz
 author: jenzamora
 manager: jtremper
-ms.date: 08/14/2019
+ms.reviewer: dahopkin
+ms.date: 10/30/2024
 audience: Admin
 ms.topic: article
-ms.service: office-perpetual-itpro
-ms.subservice: planner
+ms.service: planner
 ms.localizationpriority: high
 search.appverid:
 - MET150
@@ -18,26 +18,19 @@ description: "If you're a global admin and you want to turn off calendar sync in
 
 # Turn off Outlook calendar sync in Planner for your organization
 
-> [!IMPORTANT]
->
-> This article applies to:
->
-> - Basic plans in the Planner app in Teams
-> - All plans in other Planner endpoints (including Planner web, Planner mobile, and Planner connectors)
->
-> It doesn't apply to To Do lists or premium plans in the Planner app in Teams. [Learn more about the Planner app in Teams](/microsoftteams/manage-planner-app)
-
-If you're a global admin and you want to turn off calendar sync in Microsoft Planner, you can use Windows PowerShell. Planner is automatically turned on for all organizations that have Planner as part of their subscription.
-
-- [Prerequisites for making Planner changes in Windows PowerShell](#prerequisites-for-making-planner-changes-in-windows-powershell)
-- [Turn off or on Outlook calendar sync in Planner using PowerShell](#turn-off-or-on-outlook-calendar-sync-in-planner-using-powershell)
-
 > [!NOTE]
 > Looking for how to sync your personal Outlook calendar with Planner? [See your Planner calendar in Outlook](https://support.office.com/article/see-your-planner-calendar-in-outlook-5dcccce5-2750-49b5-991b-1837379d96c7).
 
+Calendar sync in Planner allows users to view their scheduled Planner tasks directly in their Outlook calendar. This integration helps users manage their schedules more effectively by consolidating tasks and calendar events in one place. When calendar sync is enabled, users can generate iCalendar links for basic plans and their 'Assigned to me' tasks. These iCalendar links can be used in Outlook and other calendar apps to sync scheduled tasks as events in the calendar, providing a unified view of work commitments and deadlines.
+
+> [!WARNING]
+> iCalendar links do not require authentication. Anyone with access to the iCalendar link can view task details for the synced tasks as long as the link is enabled.
+
+If you're a global admin and you want to turn off calendar sync in Microsoft Planner, you can use Windows PowerShell. Planner is automatically turned on for all organizations that have Planner as part of their subscription.
+
 ## Prerequisites for making Planner changes in Windows PowerShell
 
-Follow the steps in [Prerequisites for making Planner changes in Windows PowerShell](prerequisites-for-powershell.md) to make Planner changes in Windows PowerShell.
+Before you begin, make sure you complete the steps outlined in [Prerequisites for making Planner changes in Windows PowerShell](prerequisites-for-powershell.md) to make Planner changes in Windows PowerShell.
 
 ## Turn off or on Outlook calendar sync in Planner using PowerShell
 

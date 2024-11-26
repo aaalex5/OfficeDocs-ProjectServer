@@ -1,5 +1,5 @@
 {:allowed-branchname-matches ["main"]
- :allowed-filename-matches ["ProjectWeb/"]
+ :allowed-filename-matches ["Planner/" "ProjectWeb/"]
  
  :use-gh-statuses true
  

@@ -5,11 +5,10 @@ f1.keywords:
 ms.author: jenz
 author: jenzamora
 manager: jtremper
-ms.date: 06/12/2024
+ms.date: 10/25/2024
 audience: Admin
 ms.topic: overview
-ms.service: office-perpetual-itpro
-ms.subservice: planner
+ms.service: planner
 ms.localizationpriority: high
 search.appverid:
 - MET150

@@ -17,6 +17,8 @@ description: "Learn how to create a work hours template and apply it to resource
 
 # Create and apply work calendars in Project for the web
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 Project for the web is built on the [Microsoft Power Platform](https://powerplatform.microsoft.com/en-us/), and some aspects of resource setup for Project for the web is done in Dynamics 365, including how to create a work hours template and apply it to resources.
 
 Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures. You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.
@@ -29,23 +31,21 @@ You associate a work template to the project calendar to apply the schedule for 
 There are two ways you can create a work hours template:
 - Create a work hours template from the Resource page
 - Create a new work hours template from the Calendar Template page
- 
+
  > [!Note]
  > All work hours templates are based on resource calendars. Before creating a project calendar, you'll need to create a resource with the working hours you want for your project.
- 
+
 Both methods are done on the PowerApps Project Resources page in Dynamics 365. To go there, do the following:
 1. While logged into Office 365, open a browser window and go to **https://make.powerapps.com**.
 2. On the PowerApps page, select **Apps**.
 3. On the Apps page, in the Apps tab, select **Project**.
 4. On the Project page, in the left pane, select **Resources**.
- 
 
 ## Create a work hours template from the Resource Page
 
 1. On the Resources page, select the resource you want to base your work hours on.
 2. Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.
 3. When you’re done changing options, click **Save and Close**.
-
 
 ## Create a new work hours template from the Calendar Templates page
 

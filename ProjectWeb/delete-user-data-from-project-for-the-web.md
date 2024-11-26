@@ -12,10 +12,12 @@ search.appverid:
 - MET150
 ms.localizationpriority: medium
 ms.custom: Adm_Project, has-azure-ad-ps-ref, azure-ad-ref-level-one-done
-description: "Learn how an Microsoft 365 global administrator can delete a user's information from Project for the Web."
+description: "Learn how a Microsoft 365 global administrator can delete a user's information from Project for the Web."
 ---
 
 # Delete user data from the Project for the web
+
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
 
 To delete user data from Project for the web, you need the user's Microsoft Entra Object ID. You can get this by checking the user's profile properties in Microsoft Entra ID or by using [Get-MgUser](/powershell/module/microsoft.graph.users/get-mguser).
 
@@ -71,11 +73,11 @@ Where `08ff59a5-b31f-4f2f-bcdd-1dc373c88583` is the GroupId GUID value and `a948
 
 Once you’re an owner of the groups, you can open the roadmaps from Project Home and make edits directly. Roadmap must be enabled to do this.)
 
-### For roadmaps not associated with an Microsoft 365 group
+### For roadmaps not associated with a Microsoft 365 group
 
-If your user's roadmap isn’t associated with an Microsoft 365 group, and you want to be able to make edits to it, you need to add a group that you own to the roadmap.
+If your user's roadmap isn’t associated with a Microsoft 365 group, and you want to be able to make edits to it, you need to add a group that you own to the roadmap.
 
-This first requires you to create an Microsoft 365 Group and get the Microsoft 365 Group Microsoft Entra ID value for it. After you do this, perform the following steps:
+This first requires you to create a Microsoft 365 Group and get the Microsoft 365 Group Microsoft Entra ID value for it. After you do this, perform the following steps:
 
 1. In the Advanced Find search results, select the name of the roadmap to open it in Dynamics 365.
 2. In the Roadmap Information page in Dynamics 365, select the menu item with three dots, and in the menu select **Flow**, and then select **Form Editor**.
@@ -113,18 +115,20 @@ To delete or edit a user's project, perform the following steps:
     - **Tasks** to update the project's tasks.
 
 ## To delete or edit Task History for a project
+
 Users can delete all history records for a project by deleting the project.
 
 To selectively remove history records, perform the following steps.  
 
-1. Sign in to [Power Apps](https://make.powerapps.com) and select the appropriate Dataverse environment. For most users, this will be the **default** environment. 
-2. Navigate to **solutions > Project**. The **Name** property for this table is **msdyn_ProjectServiceCore_Patch**. 
-3. Locate and select the **Project History** table. 
-4. Click the **Edit** option for the table. 
+1. Sign in to [Power Apps](https://make.powerapps.com) and select the appropriate Dataverse environment. For most users, this will be the **default** environment.
+2. Navigate to **solutions > Project**. The **Name** property for this table is **msdyn_ProjectServiceCore_Patch**.
+3. Locate and select the **Project History** table.
+4. Click the **Edit** option for the table.
 5. Select the records you want to delete and click **Delete n records**
 
 ## Impact of deleting a project on data copied to Planner and To Do
-Deleting a Project or the user's data would lead to deletion of the Project/User data from Assigned to me view of Planner and To Do as well. 
+
+Deleting a Project or the user's data would lead to deletion of the Project/User data from Assigned to me view of Planner and To Do as well.
 
 ## See Also
 

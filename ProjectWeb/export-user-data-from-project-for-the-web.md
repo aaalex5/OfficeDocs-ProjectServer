@@ -17,8 +17,9 @@ description: "Learn how your organization can export a specific user's content f
 
 # Export user data from Project for the web
 
-This article describes how a Microsoft 365 tenant admin can export a specific user’s data from Project for the web. The admin can then choose to view the user’s data and decide what data they want to make available to the user. The task data from Project for the web is synchronized with Planner to populate the user’s ‘Assigned to Me’ view in Planner. If you are solely interested in the project data, you can export it from Project for the web using the steps provided below. However, if you also wish to export the Planner-specific data associated with those project tasks, you can do so by exporting the data from the ‘Assigned to Me’ view in Planner.
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
 
+This article describes how a Microsoft 365 tenant admin can export a specific user’s data from Project for the web. The admin can then choose to view the user’s data and decide what data they want to make available to the user. The task data from Project for the web is synchronized with Planner to populate the user’s ‘Assigned to Me’ view in Planner. If you're solely interested in the project data, you can export it from Project for the web using the steps provided below. However, if you also wish to export the Planner-specific data associated with those project tasks, you can do so by exporting the data from the ‘Assigned to Me’ view in Planner.
 
 Project for the web data is stored in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro) in Microsoft PowerApps. This article describes how you can:  
 
@@ -35,8 +36,7 @@ You’ll need the following in order to look for data on a specific user through
 If you also want to export and view information on specific projects:
 
 - You need to be a tenant admin.
-- You need to have a Project Plan 1, Project Plan 3, or Project Plan 5 license.
-
+- You need to have a Planner Plan 1, Planner and Project Plan 3, or Planner and Project Plan 5 license.
 
 ## Methods for finding your user's data
 
@@ -65,22 +65,22 @@ You can look specifically at any of these Dynamics 365 solutions to get an idea 
 
 To view entities for a Dynamics 365 solution:
 
-1. In the Microsoft 365 Admin center, under **Admin centers**, select **Dynamics 365**.
+1. In the Microsoft 365 admin center, under **Admin centers**, select **Dynamics 365**.
 
 1. In the Dynamics 365 Administration Center, select the default instance, and then select **Open**.
 
-   ![Screenshot of Dataverse instance Open button.](media/CDSInstance.png) 
+   ![Screenshot of Dataverse instance Open button.](media/CDSInstance.png)
 
 1. On the Dynamics 365 Settings page, select the **Settings** menu, and in the **Customization** section, select **Solutions**.
 
 1. On the All Solutions page, select the Display Name of the solution that you’re interested in.
 
-    ![Dataverse solutions.](media/CDSsolutions.png) 
+    ![Dataverse solutions.](media/CDSsolutions.png)
 
 1. On the solution information page, expand **Entities** to view them.
 
    ![Screenshot of Dataverse solutions entities.](media/CDSSolutionEntities.png)
-   
+
 1. Under each entity, you can select specific objects to get more details about its properties.
 
    ![Solutions entities descriptions.](media/CDSEntitiesDesc.png)
@@ -172,9 +172,9 @@ To run the ExportProjectContent function:
 
       ![Screenshot of Find the instance Unique Name.](media/DynamicsOrgid.png)</br>
 
-   As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is 
+   As an example of how to run the script, if the Project ID of the project is dd065460-02b8-e911-a989-000d3a170e10, you want the output files to go to C:\User1Project1, and the instance name of the Dataverse org is
    `https://orgde6d15d8.crm.dynamics.com`, you would run the script like this:
-      
+
    `ExportProjectContent -ProjectID dd065460-02b8-e911-a989-000d3a170e10 -OutputDirectory C:\User1Project1 -InstanceId `https://orgde6d15d8.crm.dynamics.com`"`
 
 1. When the script completes, go to the OutputDirectory location you specified to find the .json files for the project.

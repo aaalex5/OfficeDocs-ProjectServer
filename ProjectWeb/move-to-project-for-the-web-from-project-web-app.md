@@ -13,6 +13,8 @@ audience: admin
 
 # Integrate Project for the web into your project management processes
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 Project Online and Project Server use key SharePoint features such as web parts, collaborative sites, and SharePoint security groups. If you administer either product, you've spent time customizing them to control access and ensure that projects meet your organization's standards.
 
 Project for the web uses the Microsoft Power Platform: [PowerApps](/powerapps/powerapps-overview), [Power Automate](/power-automate/getting-started), [Power BI](/power-bi/fundamentals/power-bi-overview), and [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
@@ -33,7 +35,6 @@ This article helps you customize the Project Power App to meet the standards tha
 
 > [!TIP]
 > Want a head start? [Deploy the Project for the web Accelerator and Power BI template](https://github.com/OfficeDev/Project-Accelerator#heres-the-latest-version-of-the-accelerator), a free solution that adds numerous project management scenarios and visualizations to the Project Power App.
-
 > [!IMPORTANT]
 > To customize the Project Power App, you need an account with [the right security role](/powerapps/maker/model-driven-apps/privileges-required-customization#system-administrator-and-system-customizer-security-roles).
 
@@ -167,7 +168,6 @@ Dashboards contain other components to provide a role-specific big picture. For 
 
 > [!TIP]
 > The Project for the web Power App Accelerator includes a dashboard that you can use and customize as needed.
-
 > [!IMPORTANT]
 > Create or customize the components you want to include on your dashboard first. Otherwise, they won't be available when you design your dashboard.
 

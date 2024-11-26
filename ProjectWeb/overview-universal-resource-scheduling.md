@@ -16,6 +16,8 @@ description: "This article provides an overview of the Universal Resource Schedu
 
 # Overview of Universal Resource Scheduling in Project for the web
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 The **Universal Resource Scheduling** option in the **Resource Scheduling** app enables booking of resources to projects that helps ensure that resources are not overloaded with too much work from too many projects.
 
 ## Prerequisites

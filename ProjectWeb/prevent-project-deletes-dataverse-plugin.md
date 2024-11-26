@@ -12,6 +12,8 @@ ms.custom: template-how-to
 
 # Prevent deletes of projects in a Project environment by creating a Microsoft Dataverse Plugin
 
+[!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
+
 Project for the Web is collaborative by design and allows all licensed team members full access to the entire project. But sometimes, you want to keep some teammates from deleting projects. This article explains how to use [a Dataverse plug-in to block deletion of projects](https://github.com/OfficeDev/Project-Dataverse-Plugin-Sample), even in Dynamics 365 Project Operations.
 
 You can modify this plugin to grant the delete permission solely to the project owner, manager, an Admin, or otherwise. Furthermore, Dataverse plug-ins can be used to validate or modify any other operation that is performed on Dataverse Entities (Projects, Tasks, Teams, etc.) and their relationship to other entities.
