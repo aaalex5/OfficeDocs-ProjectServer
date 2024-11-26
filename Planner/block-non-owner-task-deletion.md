@@ -7,7 +7,7 @@ manager: jtremper
 ms.date: 10/25/2024
 audience: Admin
 ms.topic: article
-ms.service: office-perpetual-itpro
+ms.service: planner
 ms.localizationpriority: high
 search.appverid:
 description: "This article shares information on how admins can block a user from deleting tasks the user didn't create"
