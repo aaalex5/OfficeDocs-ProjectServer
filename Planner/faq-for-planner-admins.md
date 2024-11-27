@@ -70,7 +70,7 @@ To turn off Planner for your organization, see [How to turn off Planner for your
 To turn off just the Planner Loop component, see [How to turn off the Planner component for your organization](disable-planner-component.md).
 
 > [!NOTE]
-> Removing a user's Planner license only prevents them from navigating to Planner using the Planner tile. Users in your organization without licenses to Planner can still create and modify plans at the direct Planner URL: planner.</span>cloud.</span>microsoft. You can remove users' ability to create plans at planner.cloud.microsoft (see [How do I manage who can create a plan?](#how-do-i-manage-who-can-create-a-plan)), but you can't remove their ability to see and modify existing plans at planner.</span>cloud.</span>microsoft at this time.
+> Removing a user's Planner license only prevents them from navigating to Planner using the Planner tile. Users in your organization without licenses to Planner can still create and modify plans at the direct Planner URL: planner.</span>cloud.</span>microsoft. You can remove a user's ability to create plans at planner.cloud.microsoft, but can't remove their ability to see and modify existing plans at planner.</span>cloud.</span>microsoft at this time.
 
 ## How do I turn off Outlook calendar sync in Planner for my organization?
 
