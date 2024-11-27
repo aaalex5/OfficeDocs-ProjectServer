@@ -3,18 +3,23 @@
 # For more information, see https://review.learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata?branch=main
 # For valid values of ms.service, ms.prod, and ms.topic, see https://review.learn.microsoft.com/en-us/help/platform/metadata-taxonomies?branch=main
 
-title:       # Add a title for the browser tab
-description: # Add a meaningful description for search results
+title:       Frequently asked questions for admins about Microsoft Planner
+description: Get answers to frequently asked questions about Microsoft Planner. This article is specific to an admin audience.
 author:      ashnapatel01 # GitHub alias
 ms.author:   ashnapatel # Microsoft alias
-ms.service:  # Add the ms.service or ms.prod value
+manager: dellerderick
+ms.reviewer: namerali
+ms.service:  planner
+ms.localizationpriority: medium
+search.appverid: MET150
+f1.keywords: NOCSH
 # ms.prod:   # To use ms.prod, uncomment it and delete ms.service
-ms.topic:    # Add the ms.topic value
-ms.date:     10/25/2024
+ms.topic:    how-to
+ms.date:     11/26/2024
 ---
 # Frequently asked questions for admins about Microsoft Planner
 
-## Can I see who is already using Planner, or see a list of all the Planner sites?
+## Can I see who's already using Planner, or see a list of all the Planner sites?
 
 You can see a list of all groups in the Microsoft 365 admin center, in the Groups section, and find out more detailed information about these groups using [Microsoft 365 Reports in the admin center - Microsoft 365 Groups](https://support.office.com/article/office-365-reports-in-the-admin-center--office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40). Every group comes with a plan, but a list of plans and active usage of plans are not included in these reports right now.
 
@@ -31,12 +36,12 @@ For more information, see [Guest access in Microsoft Planner](https://support.of
 
 ## Can people in my organization use Planner if they don't have an Exchange Online mailbox?
 
-- If you are using Microsoft Planner in a hybrid environment in which your users may have Exchange Online or on-premises mailboxes, note that:
+- If you're using Microsoft Planner in a hybrid environment in which your users may have Exchange Online or on-premises mailboxes, note that:
 - Planner has full functionality when your user has a product license that includes Exchange Online. Planner users without Exchange Online may have issues with viewing or adding comments to a task.
 
 ## How do I change the domain that Planner email notifications come from?
 
-If you are interested in having your notification emails come from a custom email domain, follow the steps described in [Multi-domain support for Microsoft 365 Groups - Admin help](https://support.office.com/article/multidomain-support-for-office-365-groups--admin-help-7cf5655d-e523-4bc3-a93b-3ccebf44a01a).
+If you're interested in having your notification emails come from a custom email domain, follow the steps described in [Multi-domain support for Microsoft 365 Groups - Admin help](https://support.office.com/article/multidomain-support-for-office-365-groups--admin-help-7cf5655d-e523-4bc3-a93b-3ccebf44a01a).
 
 ## How do I make sure all my users can get emails for Planner?
 
@@ -54,9 +59,9 @@ The Planner app in Teams gives users a way to manage their tasks and plans in on
 > [!NOTE]
 > For details about the support for advanced compliance capabilities such as eDiscovery and Auditing across these different services, refer to the documentation for Microsoft Purview.
 
-## Can I see who is already using Planner, or see a list of all the Planner sites?
+## Can I see who's already using Planner, or see a list of all the Planner sites?
 
-You can see a list of all groups in the Microsoft 365 admin center, in the Groups section, and find out more detailed information about these groups using [Microsoft 365 Reports in the admin center - Microsoft 365 Groups](https://support.office.com/article/office-365-reports-in-the-admin-center--office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40). Every group comes with a plan, but a list of plans and active usage of plans are not included in these reports right now.
+You can see a list of all groups in the Microsoft 365 admin center, in the Groups section, and find out more detailed information about these groups using [Microsoft 365 Reports in the admin center - Microsoft 365 Groups](https://support.office.com/article/office-365-reports-in-the-admin-center--office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40). Every group comes with a plan, but a list of plans and active usage of plans aren't included in these reports right now.
 
 ## How do I turn off Planner for my organization?
 
