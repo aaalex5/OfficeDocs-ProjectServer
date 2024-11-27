@@ -31,10 +31,10 @@ description: "This article shares information on how admins can control and mana
 The new Microsoft Planner is a single, unified work management experience. It brings together the simplicity of Microsoft To Do, the collaboration of Planner, and power of Microsoft Project, and the intelligence of Microsoft 365 Copilot into a single, simple solution that spans from individual task management to enterprise and professional project management.
 
 ## Explore how Microsoft Planner can help your organization on track and drive toward delivery
-- **Simple**: Manage your tasks, to do lists, plans, and projects across Microsoft 365 apps in a single familiar experience.
+- **Simple**: Manage your tasks, to do lists, plans, and projects across Microsoft 365 apps in a single, familiar experience.
 - **Scalable**: Create extensible project plans that scale effortlessly with powerful scheduling and resourcing tools.
 - **Flexible**: Co-create and collaborate on plans with your team and choose from various templates, views, and features.
-- **Intelligent**: Plan, set goals, and stay informed with Copilot, leveraging AI to provide insights and streamline workflows.
+- **Intelligent**: Plan set goals, and stay informed with Copilot, leveraging AI to provide insights and streamline workflows.
 
 ## How do I install or activate Planner for my organization?
 
