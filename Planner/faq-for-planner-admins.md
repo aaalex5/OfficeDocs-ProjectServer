@@ -59,10 +59,6 @@ The Planner app in Teams gives users a way to manage their tasks and plans in on
 > [!NOTE]
 > For details about the support for advanced compliance capabilities such as eDiscovery and Auditing across these different services, refer to the documentation for Microsoft Purview.
 
-## Can I see who's already using Planner, or see a list of all the Planner sites?
-
-You can see a list of all groups in the Microsoft 365 admin center, in the Groups section, and find out more detailed information about these groups using [Microsoft 365 Reports in the admin center - Microsoft 365 Groups](https://support.office.com/article/office-365-reports-in-the-admin-center--office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40). Every group comes with a plan, but a list of plans and active usage of plans aren't included in these reports right now.
-
 ## How do I turn off Planner for my organization?
 
 When Microsoft Planner is included in your subscription, it's automatically turned on for everyone in your organization. If you want to control which people in your organization have licenses for Planner, for example, if your organization isn't ready to begin using Planner, you can remove or assign Planner licenses by using Office 365 PowerShell.
