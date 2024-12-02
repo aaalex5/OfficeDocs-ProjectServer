@@ -31,7 +31,7 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Turn Planner on or off
-            url: planner-for-admins.md#how-do-i-turn-off-planner-for-my-organization
+            url: faq-for-planner-admins.md#how-do-i-turn-off-planner-for-my-organization
       - linkListType: overview
         links:
           - text: Planner community
@@ -42,5 +42,7 @@ landingContent:
             url: https://support.office.com/planner
       - linkListType: reference
         links:
+          - text: Frequently asked questions
+            url: faq-for-planner-admins.md
           - text: Planner API
             url: /graph/planner-concept-overview
