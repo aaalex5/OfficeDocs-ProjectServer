@@ -60,6 +60,8 @@ Items:
       href: access-planner-roster.md
   - name: Reference
     items:
+    - name: Frequently asked questions
+      href: faq-for-planner-admins.md
     - name: Microsoft Planner limits
       href: planner-limits.md
     - name: Prerequisites for making Planner changes in Windows PowerShell
