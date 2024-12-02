@@ -30,7 +30,7 @@ description: "This article shares information on how admins can control and mana
 
 The new Microsoft Planner is a single, unified work management experience. It brings together the simplicity of Microsoft To Do, the collaboration of Planner, and power of Microsoft Project, and the intelligence of Microsoft 365 Copilot into a single, simple solution that spans from individual task management to enterprise and professional project management.
 
-## Explore how Microsoft Planner can help your organization on track and drive toward delivery
+## Explore how Microsoft Planner can help your organization stay on track and drive toward delivery
 - **Simple**: Manage your tasks, to do lists, plans, and projects across Microsoft 365 apps in a single, familiar experience.
 - **Scalable**: Create extensible project plans that scale effortlessly with powerful scheduling and resourcing tools.
 - **Flexible**: Co-create and collaborate on plans with your team and choose from various templates, views, and features.
@@ -52,7 +52,7 @@ For more on these subscriptions, see [business plans](https://www.microsoft.com/
 ## What do my users have access to as a Microsoft Planner user? 
 Users with a Microsoft 365 license have access to a rich set of capabilities for individual and team work management. These include the ability to create and edit tasks and plans, see a full list of assigned tasks within My Tasks, various plan views (for example, Grid, Board, Schedule, and Charts), My Day, and more. 
 
-Planner in Microsoft 365 users can create basic plans and have access to four unique views: Grid, Board, Schedule, and Charts. An https://www.microsoft.com/microsoft-365/planner/project-plan-1 is required to create premium plans and access additional views, such as Timeline, People, and Goals. If you have a Planner and Project Plan 3 or Planner and Project Plan 5 license, then you have access to the advanced capabilities with premium plans in Planner. Advanced features include report creation, Timeline (Gantt) view, dependencies, sprints, custom fields, team workload, and managing goals. For more information, see [Advanced capabilities with premium plans in Planner](https://support.microsoft.com/en-us/office/advanced-capabilities-with-premium-plans-in-planner-6cdba2aa-da06-4e08-be4c-baaa4fda17ba).
+Planner in Microsoft 365 users can create basic plans and have access to four unique views: Grid, Board, Schedule, and Charts. A [Project Plan 1](https://www.microsoft.com/microsoft-365/planner/project-plan-1) is required to create premium plans and access additional views, such as Timeline, People, and Goals. If you have a Planner and Project Plan 3 or Planner and Project Plan 5 license, then you have access to the advanced capabilities with premium plans in Planner. Advanced features include report creation, Timeline (Gantt) view, dependencies, sprints, custom fields, team workload, and managing goals. For more information, see [Advanced capabilities with premium plans in Planner](https://support.microsoft.com/en-us/office/advanced-capabilities-with-premium-plans-in-planner-6cdba2aa-da06-4e08-be4c-baaa4fda17ba).
 
 Project for the web users can access premium capabilities in both Planner in Teams and Planner for the web once it's available for your organization. 
 
@@ -65,7 +65,7 @@ In April 2024, the Tasks by Planner and To Do app was renamed Planner. This app 
 
 - Project for the web remains available with no change to its existing functionality.
 - You can now view your Project for the web tasks in the new Planner in Teams.
-- Users will be able to access Project for the web capabilities in Planner for the web once it's rolled out to their organization.
+- Users will be able to access Project for the web capabilities in Planner once it's rolled out to their organization.
 
 **Project Power App users:**
 
