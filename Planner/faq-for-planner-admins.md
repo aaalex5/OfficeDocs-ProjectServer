@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords: NOCSH
 # ms.prod:   # To use ms.prod, uncomment it and delete ms.service
 ms.topic:    how-to
-ms.date:     11/26/2024
+ms.date:     12/02/2024
 ---
 # Frequently asked questions for admins about Microsoft Planner
 
@@ -49,7 +49,7 @@ In Planner, users can choose to receive emails when tasks are assigned to them o
 
 ## Where is data for the Microsoft Planner app in Microsoft Teams stored?
 
-The Planner app in Teams gives users a way to manage their tasks and plans in one place. The storage location of Planner data depends on the service used to create the tasks, plans, and projects. 
+The Planner app in Teams gives users a way to manage their tasks and plans in one place. The storage location of Planner data depends on the service used to create the tasks, plans, and projects.
 
 - Tasks in Todo and Outlook are stored in Exchange.
 - Plans and their included tasks are stored in Azure.
@@ -88,5 +88,3 @@ See [Use the Planner component in Loop](https://support.microsoft.com/office/use
 ## How can I apply CA policies to the Planner iOS and Android apps?
 
 To apply CA policies to the Planner iOS and Android apps, please make sure that CA policies are enabled for Exchange or SharePoint within Microsoft Intune in the Azure portal. Enabling CA policy for Planner alone (without policies enabled for Exchange or SharePoint) does not apply the policies for the Planner iOS and Android apps.
-
-
