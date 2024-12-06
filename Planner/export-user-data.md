@@ -134,10 +134,10 @@ Each plan file name will be prefixed with "Plan" and the Microsoft Planner ID of
 |Plan.CreatedByAppId|The app that created the plan.|
 |Plan.ModifiedDate|Date and time the plan was last updated.|
 |Plan.ModifiedBy|Name of the user that last updated the plan. See User properties for more detail.|
-|Plan.ModifiedByAppId|Id of the app which last modified the plan.|
+|Plan.ModifiedByAppId|Identifier of the app which last modified the plan.|
 |Plan.CreationProcessInfo|Details about the process that created the plan.|
 |Plan.CreationProcessInfo.Type|Process type that created the plan. For Copy Plan, type will be `CopyPlan`. For Publishing, type will be `PublicTarget`|
-|Plan.CreationProcessInfo.SourceId|Identity of the operation that created the plan. For Copy Plan, source id will be the source plan id. For Publishing, source id will be the channel id.|
+|Plan.CreationProcessInfo.SourceId|Identity of the operation that created the plan. For Copy Plan, source identifier will be the source plan identifier. For Publishing, source identifier will be the channel id.|
 |Plan.CreationSource|Information about the source which created the plan.|
 |Plan.CreationSource.ExternalSource|Contains information for a plan created from an external source.|
 |Plan.CreationSource.ExternalSource.ContextScenarioId|An identifier for the scenario associated with this external source.|
@@ -248,7 +248,7 @@ Each plan file name will be prefixed with "Plan" and the Microsoft Planner ID of
 |Plan.Tasks.CompletionRequirements.Checklist|The checklist requirements that must be met, before the task can be marked as complete.|
 |Plan.Tasks.CompletionRequirements.Checklist.ChecklistIds|The checklist ID's that are mandatory to be completed.|
 |Plan.Tasks.CompletionRequirements.Forms|The forms requirements that must be met, before the task can be marked as complete.|
-|Plan.Tasks.CompletionRequirements.Forms.RequiredForms|Indicates the forms, that are mandatory to be completed.|
+|Plan.Tasks.CompletionRequirements.Forms.RequiredForms|Indicates the forms that are mandatory to be completed.|
 |Plan.Tasks.CompletionRequirements.Approval|The approval requirements that must be met, before the task can be marked as complete.|
 |Plan.Tasks.CompletionRequirements.Approval.IsApprovalRequired|Indicates if approval is required.|
 |Plan.Tasks.Approval|The approval attached to a task.|
@@ -299,7 +299,7 @@ Each plan file name will be prefixed with "Plan" and the Microsoft Planner ID of
 |Plan.Tasks.Checklist.ModifiedBy|The user that last updated the checklist. See [User properties](#user-properties-in-the-plansjson-file) for more detail.|
 |Plan.Tasks.Checklist.ModifiedByAppId|The app that last modified this checklist item.|
 |Plan.Tasks.Checklist.ModifiedDate|Date the checklist was last updated.|
-|Plan.Tasks.Checklist.CreatedBy|The user that create the checklist item. See User properties for more detail. Could be `null` if created by the system.|
+|Plan.Tasks.Checklist.CreatedBy|The user that created the checklist item. See User properties for more detail. Could be `null` if created by the system.|
 |Plan.Tasks.Checklist.CreatedByAppId|The app that created the checklist item. This can be `null` in some cases or if the data existed before this field existed.|
 |Plan.Tasks.Forms|Task forms.|
 |Plan.Tasks.Forms.DisplayName|The display name of the form.|
