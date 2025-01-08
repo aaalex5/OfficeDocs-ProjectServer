@@ -10,7 +10,10 @@ audience: Admin
 ms.topic: overview
 ms.service: planner
 ms.localizationpriority: high
-ms.collection: essentials-manage
+ms.collection:
+- essentials-manage
+- essentials-overview
+- essentials-get-started
 search.appverid:
 - MET150
 description: "This article shares information on how admins can control and manage access to Planner, and answers to some other frequently asked questions about the management of Planner."
@@ -81,4 +84,4 @@ In April 2024, Project Plan 1 was renamed Planner Plan 1 to align with the rebra
 
 As of September 18, 2024, Project Plan 3 and Project Plan 5 have been renamed Planner and Project Plan 3 and Planner and Project Plan 5, respectively. This simplified naming reflects the value delivered within each SKU. Note that premium capabilities are currently not available for customers in Government Cloud Communities (GCC), GCC High, and Department of Defense (DoD) tenants. Review the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=Planner%2CMicrosoft%20Project) for the latest updates.
 
-For additional FAQs regarding Microsoft Planner, visit [Frequently asked questions for admins about Microsoft Planner](faq-for-planner-admins.md) or [Frequently asked questions about Microsoft Planner - Microsoft Support](https://support.microsoft.com/office/frequently-asked-questions-about-microsoft-planner-d1a2d4e6-a4d7-408c-a48a-31caaa267de5).
+For other FAQs regarding Microsoft Planner, visit [Frequently asked questions for admins about Microsoft Planner](faq-for-planner-admins.md) and [Frequently asked questions about Microsoft Planner - Microsoft Support](https://support.microsoft.com/office/frequently-asked-questions-about-microsoft-planner-d1a2d4e6-a4d7-408c-a48a-31caaa267de5).
