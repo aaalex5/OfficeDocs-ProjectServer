@@ -3,7 +3,7 @@ title: Software requirements for Project Server Subscription Edition
 ms.author: jenz
 author: jenzamora
 manager: jtremper
-ms.date: 6/18/2021
+ms.date: 01/09/2025
 audience: ITPro
 ms.topic: article
 ms.service: project-server-itpro
