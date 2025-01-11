@@ -18,7 +18,7 @@ description: "Learn how to turn Project for the web or Roadmap on or off for use
 
 [!INCLUDE [Planner release note](includes/p4w-alert-new-planner-rollout.md)]
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xoa0]  
+> [!VIDEO 244afcd5-7e11-4594-96ac-139e13775636]  
 
 Access to Project for the web is available to users if they’re assigned one of the following licenses:
 
