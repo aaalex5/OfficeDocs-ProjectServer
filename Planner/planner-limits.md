@@ -34,7 +34,7 @@ This article describes the current limits that apply to Microsoft Planner.
 |Maximum tasks in a plan    |9,000|
 |Maximum users that can subscribe to delta-sync for a plan    |100|
 |Maximum contexts on a plan    |10|
-|Maximum favorite plans for a user     |30|
+|Maximum favorite plans for a user     |100|
 
 > [!NOTE]
 > - An active task is a task that isn't completed.
