@@ -27,11 +27,11 @@ This article describes the current limits that apply to Microsoft Planner.
 
 |Field  |Limit  |
 |---------|---------|
-|Maximum active tasks in a plan    |2400|
+|Maximum active tasks in a plan    |2,400|
 |Maximum buckets in a plan    |200|
 |Maximum plans owned by a group or user     |200|
 |Maximum plans that a user can subscribe to delta-sync for    |300|
-|Maximum tasks in a plan    |9000|
+|Maximum tasks in a plan    |9,000|
 |Maximum users that can subscribe to delta-sync for a plan    |100|
 |Maximum contexts on a plan    |10|
 |Maximum favorite plans for a user     |30|
@@ -49,7 +49,7 @@ This article describes the current limits that apply to Microsoft Planner.
 |Maximum assignees in a task     |20|
 |Maximum checklist items in a task     |20|
 |Maximum references on a task     |10|
-|Maximum tasks assigned to a user     |3000|
+|Maximum tasks assigned to a user     |3,000|
 
 > [!NOTE]
 > These limitations can be raised or lowered from time-to-time without a prior notice. Refer to this article for updated information on Planner limits.
