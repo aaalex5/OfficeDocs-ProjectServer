@@ -7,10 +7,11 @@ title: Turn off Microsoft 365 Copilot for your organization
 description: This document walks you through the process of turning off the Copilot in Planner feature for your organization through our PowerShell suite
 author: jenzamora
 ms.author: jenz
+manager: jtremper
 ms.service: planner
 ms.topic: how-to
-ms.date:     07/25/2024
-manager: jtremper
+ms.collection: magic-ai-copilot
+ms.date: 07/25/2024
 ms.localizationpriority: high
 ms.reviewer: jevaudri
 ---
@@ -22,11 +23,11 @@ ms.reviewer: jevaudri
 Microsoft 365 Copilot in Planner offers an in-app natural language chat experience, allowing your users to request updates to their Plans and receive summaries and insights from the Plan content. As an admin, you can turn Microsoft 365 Copilot in Planner on or off. When you turn off Microsoft 365 Copilot in Planner, the functionality is hidden from your users.
 
 > [!NOTE]
-> If Microsoft 365 Copilot in Planner needs to be turned off for a tenant that has Planner Plan 1, Planner and Project Plan 3, or Planner and Project Plan 5 but doesn't have Planner (included with M365), open a request with support to have it turned off for your organization. 
+> If Microsoft 365 Copilot in Planner needs to be turned off for a tenant that has Planner Plan 1, Planner and Project Plan 3, or Planner and Project Plan 5 but doesn't have Planner (included with Microsoft 365), open a request with support to have it turned off for your organization.
+
 ## Prerequisites
 
 Follow the steps in [Prerequisites for making Planner changes in Windows PowerShell](prerequisites-for-powershell.md) to make Planner changes in Windows PowerShell.
-
 
 ## Turn off Microsoft 365 Copilot in Planner
 
@@ -37,16 +38,16 @@ Follow the steps in [Prerequisites for making Planner changes in Windows PowerSh
 
 1. Open PowerShell and run the following command to turn off Microsoft 365 Copilot in Planner:
 
-   ```PowerShell 
+   ```PowerShell
    Set-PlannerConfiguration -AllowPlannerCopilot $false
    ```
-   
+
    To turn on Microsoft 365 Copilot in Planner, run the following command:
-   
+
    ```PowerShell
    Set-PlannerConfiguration -AllowPlannerCopilot $true
    ```
-   
+
 1. To verify your settings, run the following command:
 
       ```PowerShell
