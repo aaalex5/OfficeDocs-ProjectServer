@@ -24,7 +24,7 @@ description: "This article describes how a global admin can export data for a sp
 > - Basic plans in the Planner app in Teams
 > - All plans in other Planner endpoints (including Planner web, Planner mobile, and Planner connectors)
 >
-> It doesn't apply to To Do lists or premium plans in the Planner app in Teams. [Learn more about the Planner app in Teams](/microsoftteams/manage-planner-app)
+> It doesn't apply to To Do lists or premium plans in the Planner app in Teams. [Learn more about the Planner app in Teams](/microsoftteams/manage-planner-app).
 
 This article describes how a global admin can export data for a specific user from Microsoft Planner. The exported data includes data about the user contained in Planner, and also data contained in plans that the user was a part of. The exporting process is done through Windows PowerShell.
 
@@ -246,7 +246,7 @@ Each plan file name will be prefixed with "Plan" and the Microsoft Planner ID of
 |Plan.Tasks.DescriptionHtml|Description of the task in HTML format.|
 |Plan.Tasks.CompletionRequirements|Requirement set for completing a task.|
 |Plan.Tasks.CompletionRequirements.Checklist|The checklist requirements that must be met, before the task can be marked as complete.|
-|Plan.Tasks.CompletionRequirements.Checklist.ChecklistIds|The checklist ID's that are mandatory to be completed.|
+|Plan.Tasks.CompletionRequirements.Checklist.ChecklistIds|The checklist IDs that are mandatory to be completed.|
 |Plan.Tasks.CompletionRequirements.Forms|The forms requirements that must be met, before the task can be marked as complete.|
 |Plan.Tasks.CompletionRequirements.Forms.RequiredForms|Indicates the forms that are mandatory to be completed.|
 |Plan.Tasks.CompletionRequirements.Approval|The approval requirements that must be met, before the task can be marked as complete.|
