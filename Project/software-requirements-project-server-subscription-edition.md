@@ -3,7 +3,7 @@ title: Software requirements for Project Server Subscription Edition
 ms.author: jenz
 author: jenzamora
 manager: jtremper
-ms.date: 6/18/2021
+ms.date: 01/09/2025
 audience: ITPro
 ms.topic: article
 ms.service: project-server-itpro
@@ -33,7 +33,7 @@ Some of the key software requirements for SharePoint Server Subscription Edition
 
 | Software | Software requirements |
 |:-----|:-----|
-|**Supported Server Operating Systems:** | Windows Server 2019 Standard or Datacenter <br/> Windows Server 2022 Standard or Datacenter |
+|**Supported Server Operating Systems:** | Windows Server 2019 Standard or Datacenter <br/> Windows Server 2022 Standard or Datacenter <br/> Windows Server 2025 Standard or Datacenter|
 |**Supported Database Server:** |A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 150. This includes SQL Server 2019 Cumulative Update 5 (CU5) or later, SQL Server 2022, and any future version of SQL Server for Windows that supports database compatibility level 150. For more information about database compatibility levels, see Compatibility Certification and ALTER DATABASE (Transact-SQL) Compatibility Level.<br/>  Note: SQL Analysis Services must also be installed if you are using the Cube Building Service in Project Server Subscription Edition. |
 |**Supported browsers:** | Microsoft Edge <br/>  Microsoft Internet Explorer 11 <br/> Google Chrome (latest released version) <br/>  Mozilla Firefox (latest released version plus immediate previous version) <br/>  Apple Safari (latest released version) |
 
@@ -46,7 +46,7 @@ You can connect to Project Server Subscription Edition with not only Project Pro
 
 | Version | Compatible with |
 |:-----|:-----|
-|Project Server Subscription Edition |Project Professional 2021 <br/> Project Professional 2019 <br/>  Project Online Desktop Client |
+|Project Server Subscription Edition |Project Professional 2021 <br/>Project Professional 2019 <br/>Project Online Desktop Client <br/>Project Professional 2024 |
     
 
 ## Cube Building Service requirements
