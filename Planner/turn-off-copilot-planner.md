@@ -11,7 +11,7 @@ manager: jtremper
 ms.service: planner
 ms.topic: how-to
 ms.collection: magic-ai-copilot
-ms.date: 07/25/2024
+ms.date: 02/09/2025
 ms.localizationpriority: high
 ms.reviewer: jevaudri
 ---
