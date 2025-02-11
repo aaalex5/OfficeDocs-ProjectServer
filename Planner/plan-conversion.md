@@ -3,7 +3,7 @@ title: "Plan Conversion"
 ms.author: jenz
 author: jenzamora
 manager: jtremper
-ms.date: 08/27/2024
+ms.date: 02/11/2025
 audience: Admin,user
 ms.topic: article
 ms.service: planner
@@ -15,7 +15,11 @@ description: "This article explains how to convert a basic plan into a premium p
 
 There are several capabilities that are available in premium plans that don't exist in basic plans. For example, premium users can create dependencies between tasks in a premium plan such that when one task is moved out (by any user), dependent tasks also move out. More details on the differences between basic and premium plans can be found [here](https://support.microsoft.com/office/comparing-basic-vs-premium-plans-5e351170-4ed5-43dc-bf30-d6762f5a6968).
 
+> [!NOTE]
+> Converting basic plans into premium plans isn't available for customers working from a Government Cloud Communities (GCC) environment.
+
 The following plans are eligible to be converted into premium plans:
+
 - Basic plans that are shared with a Microsoft 365 group.
 - Basic plans, which aren't yet shared (coming soon).
   
@@ -51,15 +55,11 @@ Review [Import a plan](https://support.microsoft.com/office/import-a-plan-into-a
 > The ability for premium users to convert basic plans into premium plans is beginning to roll out.
 
 1. Open the basic plan in the new Planner application.
-2. Select **More** (…).
- 
- ![Screenshot of conversion trigger.](media/convert-ellipsis.png)
+1. Select **More** (**…**).
+1. Under **Add premium views**, select **People**, **Goals**, or **Assignments**.
+1. Confirm that you want to convert your basic plan into a premium plan, and select, **Yes, convert now**.
 
-3. Choose a premium view.
-4. Select **Convert to premium for everyone**.
-5. Once completed, everyone will be working on the premium plan.
-
-The process can take a few minutes to complete. Once complete, the user and their team will be redirected to the premium plan.
+This process can take a few minutes to complete. Once complete, the user and their team will be redirected to the premium plan.
 
 ## Redirection to premium plans
 
