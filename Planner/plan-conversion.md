@@ -3,7 +3,7 @@ title: "Plan Conversion"
 ms.author: jenz
 author: jenzamora
 manager: jtremper
-ms.date: 08/27/2024
+ms.date: 02/11/2025
 audience: Admin,user
 ms.topic: article
 ms.service: planner
